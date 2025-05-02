@@ -73,7 +73,7 @@ Installation
 bash
 Copy
 Edit
-git clone https://github.com/your-username/drug-inventory-blockchain.git
+git clone https://github.com/lokendra08/drug-inventory-blockchain.git
 cd drug-inventory-blockchain
 npm install
 Running Locally
