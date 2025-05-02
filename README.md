@@ -3,31 +3,21 @@ A decentralized system to track, manage, and authenticate drugs across the pharm
 
 📋 Table of Contents
 About the Project
-
 Tech Stack
-
 Features
-
 System Architecture
-
 Getting Started
-
 Smart Contracts
-
 Testing
-
 Challenges Faced
-
 Future Enhancements
-
 Contributing
-
 License
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📖 About the Project
 The pharmaceutical supply chain faces issues like counterfeit drugs, inventory mismanagement, and lack of transparency.
 This project builds a secure, transparent, and traceable drug inventory system using blockchain technology, ensuring authenticity and efficiency from manufacturer to end consumer.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
 Blockchain Framework: Ethereum / Hyperledger Fabric
 
@@ -40,7 +30,7 @@ Frontend: React.js / Next.js
 Database (Off-Chain): IPFS / MongoDB (optional)
 
 Tools: MetaMask, Hardhat/Truffle, Ganache (for local testing)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✨ Features
 📦 Drug Registration by Manufacturer
 
@@ -55,11 +45,9 @@ Tools: MetaMask, Hardhat/Truffle, Ganache (for local testing)
 🧾 Smart Contract Automation for secure transactions
 
 🧠 Role-Based Access Control (Manufacturer, Distributor, Pharmacy, Admin)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🏛️ System Architecture
-plaintext
-Copy
-Edit
+
 [Manufacturer] -> [Blockchain Network] <- [Distributor] <- [Pharmacy]
                                  ↓
                           [Frontend Dashboard]
@@ -67,7 +55,7 @@ Edit
                            [Off-chain Storage (IPFS)]
 Every movement of a drug batch updates the blockchain.
 
-Users interact through a decentralized app (DApp).
+Users interact through a decentralized .
 
 Optional IPFS storage for detailed batch documents.
 
